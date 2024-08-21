@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main
+public class Cashback
 {
 	public static void main(String[] args) {
 	
@@ -22,7 +22,7 @@ public class Main
 	double cashback10 = ( compra / 100 ) * dez;
 	
     if(idade >= 21 && compra < 1000){
-        System.out.println("Cliente: " + nome + "\nIdade: " + idade + "Anos" "\nCashback: R$" + );
+        System.out.println("Cliente: " + nome + "\nIdade: " + idade + " Anos" "\nCashback: R$" + cashback5);
     } else if (idade < 21 && compra < 1000) {
         System.out.println("Cliente: " + nome + "\nIdade: " + idade + "\nCashback: R$" + cashback7);
     } else if (idade >= 21 && compra > 1000) {
